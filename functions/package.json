@@ -1,0 +1,20 @@
+{
+  "name": "quantumbot-core",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.12.2",
+    "firebase-admin": "^12.2.0",
+    "firebase-functions": "^5.0.1"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.11.4"
+  }
+}

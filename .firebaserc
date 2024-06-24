@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "quantumchat-bot"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
