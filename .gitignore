@@ -1,2 +1,23 @@
 .DS_Store
 /node_modules
+# Node.js dependencies
+/node_modules
+
+# Firebase cache files
+/firebase-debug.log
+/.firebase
+
+# Functions dependencies
+/functions/node_modules
+
+# Firebase credentials
+serviceAccountKey.json
+
+# Local environment variables
+.env
+.firebaserc
+firebase.json
+firestore.indexes.json
+firestore.rules
+.firebaserc
+firebase.json

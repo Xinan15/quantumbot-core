@@ -1,8 +1,9 @@
 const admin = require("firebase-admin");
 admin.initializeApp();
 
-// import the function from the specified file
-const { addMessage } = require("./api/addMessage");
+// Import the functions from the specific file
 
-// export the function for deployment
+const {addMessage} = require("./api/addMessage");
+
+// Export the functions for deplyoment
 exports.addMessage = addMessage;
