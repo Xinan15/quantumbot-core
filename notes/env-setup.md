@@ -90,3 +90,20 @@ Add project
 4. 在项目中初始化 Firebase
 
 在项目目录中，运行命令 `firebase init` 初始化 Firebase。对于本项目，选择 `Firestore` 和 `Hosting`。
+
+## Firebase Functions
+1. 将项目部署到 Firebase 上，包括 `Firestore` 和 `Functions`，此处如果我们只想部署 `Functions`，可以使用以下命令：
+```shell
+firebase deploy --only functions
+```
+
+2. 如果发生错误，我们可以删除掉已经部署的 `Functions`
+```shell
+delete addMessage --region=us-central1
+```
+
+## Firebase Database
+
+在 Firebase 后端我们需要创建影响的数据库来存储数据。
+
+在这个项目中，我们有一个 `addMessage` 函数，用于将数据添加到数据库中。相应的，在数据库中我们创建一个名为 `messages` 的 `collection`，用于存储数据。
